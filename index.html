@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book World </title>
+    <!-- local css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-success">
+    <main>
+        <section class="my-5 container py-5 photo">
+            <div class="text-center mb-5">
+
+                <h1 class="text-white">Welcome To Book Library</h1>
+                <p class="text-white fs-2">Where we can find any kind of Books</p>
+            </div>
+            <div class="text-white text-center" id="display-message">
+
+            </div>
+            <div class="input-group mb-3">
+                <input id="search-field" type="text" class="form-control" placeholder="Search by Names Of Books"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button onclick="searchBook()" class=" btn btn-success button" type="button"
+                    id="button-addon2">search</button>
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- bootstrap js  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+        <!-- local js  -->
+        <script src="script.js"></script>
+
+
+    </main>
+</body>
+
+</html>

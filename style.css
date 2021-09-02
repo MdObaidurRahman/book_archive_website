@@ -1,0 +1,13 @@
+
+/* error font color  */
+.error-font-color {
+  color: rgb(208, 233, 96) !important;
+}
+/* Search Keyword font color  */
+
+.search-keyword {
+  color: rgb(208, 233, 96) !important;
+}
+.photo{
+  background-image: url('library.jpg');
+}
